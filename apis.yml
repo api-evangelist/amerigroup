@@ -1,8 +1,26 @@
 aid: amerigroup
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amerigroup.png
 name: Amerigroup
-description: 'Amerigroup is a company surfaced as a portfolio company of sierra-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: digital-health. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Amerigroup is a US health insurance company specializing in publicly funded
+  health care, offering Medicaid managed care coverage to low-income families, children,
+  pregnant women, seniors, and people with disabilities. It operates today as Amerigroup
+  Community Care in Georgia and is part of Elevance Health (formerly WellPoint/Anthem),
+  which acquired the company in 2012 and has since rebranded most Amerigroup plans to
+  Wellpoint. Amerigroup coordinates benefits, provider networks, and care management
+  for state Medicaid and related government health programs. Members and health-care
+  providers interact through the amerigroup.com member site and a separate provider
+  portal; the company exposes no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/amerigroup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,7 +33,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Digital Health
+- Health Insurance
+- Medicaid
+- Managed Care
+- Healthcare
+- Government Programs
+- Georgia
+- Elevance Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://amerigroup.com/
+  url: https://www.amerigroup.com/
+- type: PrivacyPolicy
+  url: https://www.amerigroup.com/privacy-policy
+- type: TermsOfService
+  url: https://www.amerigroup.com/terms-of-use
+- type: Support
+  url: https://www.amerigroup.com/contact-us
+- type: ProviderPortal
+  url: https://provider.amerigroup.com/
+- type: DomainSecurity
+  url: security/amerigroup-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
